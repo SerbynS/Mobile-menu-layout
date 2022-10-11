@@ -1,0 +1,32 @@
+$img: (1 q jpg, 2 w jpg, 3 e jpg, 4 qwerty jpg);
+
+@each $name, $name-img, $format in $img {
+  .img#{$name} {
+    background-image: url("../img/#{$name-img}.#{$format}");
+
+    width: 200px;
+    height: 200px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #1f373d;
+}
+
+a {
+  text-decoration: none;
+  color: #f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}

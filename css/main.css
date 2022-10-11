@@ -1,0 +1,45 @@
+.img1 {
+  background-image: url("../img/q.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.img2 {
+  background-image: url("../img/w.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.img3 {
+  background-image: url("../img/e.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+.img4 {
+  background-image: url("../img/qwerty.jpg");
+  width: 200px;
+  height: 200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #1f373d;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 85, 255, 0.3333333333);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
